@@ -17,8 +17,11 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client" : "cd client && npm start",
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm start\""
   },
   "eslintConfig": {
     "extends": [
