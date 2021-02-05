@@ -13,7 +13,7 @@ const carousel = () =>{
   <Carousel.Item>
     <img
       className="d-block"
-       src={img1} alt="img1"
+       src={img1} height="300px" width="500px" alt="img1"
       alt="First slide"
     />
     <Carousel.Caption>
