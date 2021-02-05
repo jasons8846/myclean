@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
+import Jumbotron from './components/jumbotron';
+import Carousel from './components/carousel';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Jason</h1>
       <Navbar />
+      <div><Carousel /></div>
+      
+      <Jumbotron />
     </div>
   );
 }
